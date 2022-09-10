@@ -7,7 +7,7 @@ tags:
   - SQLite, DB, Database, Python, SelfStudy
 ---
 
-'''python
+```python
 import sqlite3
 
 # 데이터베이스에 접속 "파일경로/파일이름.확장자"
@@ -95,4 +95,4 @@ cur.execute("drop table hanbit_books_test")
 # <데이터베이스 접속 종료>
 con.close()
 
-'''
+```
